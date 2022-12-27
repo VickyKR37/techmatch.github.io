@@ -1,36 +1,36 @@
-{% extends "layout.html"%}
-{% block body %}
-<div class="container">
-	<h1> Mentee, create your profile</h1>
-	<form action="" method="POST">
-		<div class="form-group">
-            <p>Add your photo:
-			<input type="file" name="Add your photo" class="form-control" placeholder="Add your photo" accept="image/*" required>
-            <input type="submit" value="Upload" />
-            </p>
-		</div>
-		<div class="form-group">
-            <p>Please tell us a bit about yourself:
-			<input type="textarea" maxlength="2500" minlength="500" name="password" class="form-control" placeholder="Min 100 words / max 500 words" required>
-            </p>
-		</div>
-        <div class="form-group">
-            <p>What do you want to get out of the mentor/mentee realtionship:
-			<input type="textarea" name="get out of" class="form-control" maxlength="2500" minlength="50" required>
-            </p>
-		</div>
-        <div class="form-group">
-            <p>How often you can connect with a mentor:
-			<select name="connect">
-                <option value="several">Serveral times a week</option>
-                <option value="once">Once a week</option>
-                <option value="bi-weekly">Bi-weekly</option>
-                <option value="monthly">Once a month</option>
-            </select>
-            </p>
-		</div>
-    <button type="submit" class="btn btn-primary">Create</button>
+<!DOCTYPE html>
+    <body>
+        <div class="container">
+	        <h1> Mentee, create your profile</h1>
+	        <form action="" method="POST">
+		    <div class="form-group">
+                <p>Add your photo:
+			        <input type="file" name="Add your photo" class="form-control" placeholder="Add your photo" accept="image/*" required>
+                    <input type="submit" value="Upload" />
+                </p>
+		    </div>
+		    <div class="form-group">
+                <p>Please tell us a bit about yourself:
+			    <input type="textarea" maxlength="2500" minlength="500" name="password" class="form-control" placeholder="Min 100 words / max 500 words" required>
+                </p>
+		    </div>
+            <div class="form-group">
+                <p>What do you want to get out of the mentor/mentee realtionship:
+			    <input type="textarea" name="get out of" class="form-control" maxlength="2500" minlength="50" required>
+                </p>
+		    </div>
+            <div class="form-group">
+                <p>How often you can connect with a mentor:
+			    <select name="connect">
+                    <option value="several">Serveral times a week</option>
+                    <option value="once">Once a week</option>
+                    <option value="bi-weekly">Bi-weekly</option>
+                    <option value="monthly">Once a month</option>
+                </select>
+                </p>
+		    </div>
+            <button type="submit" class="btn btn-primary">Create</button>
     
-	</form>
-
-{% endblock%}
+	        </form>
+        </div>
+    </body>
