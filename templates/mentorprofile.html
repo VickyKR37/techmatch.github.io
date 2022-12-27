@@ -1,0 +1,36 @@
+{% extends "layout.html"%}
+{% block body %}
+<div class="container">
+	<h1> Mentor, create your profile</h1>
+	<form action="" method="POST">
+		<div class="form-group">
+            <p>Add your photo:
+			<input type="file" name="Add your photo" class="form-control" placeholder="Add your photo" accept="image/*" required>
+            <input type="submit" value="Upload" />
+            </p>
+		</div>
+		<div class="form-group">
+            <p>Please tell us about your education and career trajectory, knowledge, and approach to mentoring:
+			<input type="textarea" maxlength="2500" minlength="500" name="password" class="form-control" placeholder="About you" required>
+            </p>
+		</div>
+        <div class="form-group">
+            <p>What is youtr job title:
+			<input type="textarea" name="job" class="form-control" placeholder="Job title" required>
+            </p>
+		</div>
+        <div class="form-group">
+            <p>How often you can connect with a mentee:
+			<select name="connect">
+                <option value="several">Serveral times a week</option>
+                <option value="once">Once a week</option>
+                <option value="bi-weekly">Bi-weekly</option>
+                <option value="monthly">Once a month</option>
+            </select>
+            </p>
+		</div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    
+	</form>
+
+{% endblock%}
