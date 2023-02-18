@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./docs/main.css">
+</head>
+<body>
+    <div class="container">
+        <form action="POST" class="form" id="login">
+            <h1 class="form title">Create New Account</h1>
+            <p class="form text">
+                <a class="form link" href="./index.html" id="linkLogin">Already registered? Login</a>
+            </p>
+            <!--i I need to handle the below error-->
+            <div class="form input group">
+                <input type="text" class="form input" autofocus placeholder="NAME">
+            </div>
+            <div class="form input group">
+                <input type="text" class="form input" autofocus placeholder="EMAIL">
+                <div class="form input error message">Incorrect email format</div>
+            </div>
+            <div class="form input group">
+                <input type="password" class="form input" autofocus placeholder="PASSWORD">
+                <div class="form input error message"></div>
+                <button class="form button" type="submit">Submit</button> 
+                <p class="form text">
+                    <!--put in link to forgot password page-->
+                    <a href="#" class="form link">Forgot your password?</a>
+                </p>
+                <p class="form text">
+                    <a class="form link" href="./createnewaccount.html" id="linkCreateAccount">Don't have an account? Create an account</a>
+                </p>
+            </div>
+
+        </form>
+        
+    <script  src="./docs/main.js"></script>
+</body>
