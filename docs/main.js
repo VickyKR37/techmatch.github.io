@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         createAccountForm.classList.add("form--hidden")
     });
 
-    loginForm.addEventListener("Submit", e => {
+    loginForm.addEventListener("submit", e => {
         e.preventDefault();
 
         //Perform your ajax/fetch login
