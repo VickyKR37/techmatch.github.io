@@ -8,7 +8,7 @@
         <form action="POST" class="form" id="login">
             <h1 class="form title">Create New Account</h1>
             <p class="form text">
-                <a class="form link" href="./index.html" id="linkLogin">Already registered? Login</a>
+                <a class="formLink" href="./index.html" id="linkLogin">Already registered? Login</a>
             </p>
             <!--i I need to handle the below error-->
             <div class="form input group">
@@ -16,7 +16,7 @@
             </div>
             <div class="form input group">
                 <input type="text" class="form input" autofocus placeholder="EMAIL">
-                <div class="form input error message">Incorrect email format</div>
+                <div class="formInputErrorMessage">Incorrect email format</div>
             </div>
             <div class="form input group">
                 <input type="password" class="form input" autofocus placeholder="PASSWORD">
@@ -24,6 +24,7 @@
                 <div class="form input error message">Please enter at least 8 charachters for your password</div>
                 <div class="terms and conditions">
                     <input type="checkbox" id="agree" name="terms" value="terms">
+                    <!-- Need to add links to terms and privacy page (and create those pages)-->
                     <label for="agree">I agree with Terms and Privacy </label><br>
                 </div>
                 <button class="form button" type="submit">Sign Up</button> 
