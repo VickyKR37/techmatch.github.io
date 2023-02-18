@@ -6,28 +6,24 @@
 <body>
     <div class="container">
         <form action="POST" class="form" id="createNewAccount">
-            <h1 class="form title">Create New Account</h1>
-            <p class="form text">
+            <h1 class="title">Create New Account</h1>
+            <p class="formText">
                 <a class="formLink" href="./index.html" id="linkLogin">Already registered? Login</a>
             </p>
-            <!--i I need to handle the below error-->
-            <div class="form input group">
-                <input type="text" class="form input" autofocus placeholder="NAME">
+            <div class="formInputGroup">
+                <input type="text" class="formInput" autofocus placeholder="NAME">
             </div>
-            <div class="form input group">
-                <input type="text" class="form input" autofocus placeholder="EMAIL">
-                <div class="formInputErrorMessage">Incorrect email format</div>
+            <div class="formInputGroup">
+                <input type="text" class="formInput" autofocus placeholder="EMAIL">
             </div>
-            <div class="form input group">
-                <input type="password" class="form input" autofocus placeholder="PASSWORD">
-                <!--i I need to handle the below error-->
-                <div class="formInputErrorMessage">Please enter at least 8 charachters for your password</div>
-                <div class="terms and conditions">
+            <div class="formInputGroup">
+                <input type="password" class="formInput" autofocus placeholder="PASSWORD">
+                <div class="terms">
                     <input type="checkbox" id="agree" name="terms" value="terms">
                     <!-- Need to add links to terms and privacy page (and create those pages)-->
                     <label for="agree">I agree with Terms and Privacy </label><br>
                 </div>
-                <button class="form button" type="submit">Sign Up</button> 
+                <button class="formButton" type="submit">Sign Up</button> 
             </div>
 
         </form>
