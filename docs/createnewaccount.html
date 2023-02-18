@@ -20,15 +20,13 @@
             </div>
             <div class="form input group">
                 <input type="password" class="form input" autofocus placeholder="PASSWORD">
-                <div class="form input error message"></div>
-                <button class="form button" type="submit">Submit</button> 
-                <p class="form text">
-                    <!--put in link to forgot password page-->
-                    <a href="#" class="form link">Forgot your password?</a>
-                </p>
-                <p class="form text">
-                    <a class="form link" href="./createnewaccount.html" id="linkCreateAccount">Don't have an account? Create an account</a>
-                </p>
+                <!--i I need to handle the below error-->
+                <div class="form input error message">Please enter at least 8 charachters for your password</div>
+                <div class="terms and conditions">
+                    <input type="checkbox" id="agree" name="terms" value="terms">
+                    <label for="agree">I agree with Terms and Privacy </label><br>
+                </div>
+                <button class="form button" type="submit">Sign Up</button> 
             </div>
 
         </form>
