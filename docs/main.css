@@ -10,3 +10,16 @@ img {
 .formInputErrorMessage {
     color: red;
 }
+
+h1 {
+    font-size: 100%;
+}
+
+.formInputGroup {
+    font-size: 60%;
+}
+
+.formButton {
+    background-color: black;
+    color: white;
+}
