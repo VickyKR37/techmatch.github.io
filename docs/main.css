@@ -30,9 +30,14 @@ h1 {
 
 textarea {
     background-color: lightgray;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    resize: none;
 }
 
 .about{
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
