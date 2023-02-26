@@ -3,6 +3,13 @@
     font-family: monospace;
 }
 
+body {
+    align-content: center;
+}
+
+im {
+    align-content: flex-start;
+}
 .formInputErrorMessage {
     color: red;
 }
