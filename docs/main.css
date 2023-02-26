@@ -1,5 +1,5 @@
 * {
-    background-color: antiquewhite;  
+    background-color: white;  
     font-family: monospace;
 }
 
@@ -7,7 +7,7 @@ body {
     align-content: center;
 }
 
-im {
+img {
     align-content: flex-start;
 }
 .formInputErrorMessage {
