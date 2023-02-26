@@ -9,7 +9,7 @@ body {
     padding: 10px;
 }
 nav {
-    text-align: left;
+    float: left;
 }
 p .formText {
     font-size: 100%;
