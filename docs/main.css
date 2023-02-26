@@ -9,6 +9,9 @@ body {
     padding: 10px;
 }
 
+p .formText {
+    font-size: 55%;
+}
 img {
     align-content: flex-start;
 }
@@ -49,6 +52,3 @@ textarea {
     padding: 10px;
 }
 
-.formText {
-    font-size: 55%;
-}
