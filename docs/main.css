@@ -28,7 +28,11 @@ h1 {
     color: white;
 }
 
-textarea  .about{
+textarea {
+    background-color: lightgray;
+}
+
+textarea .about{
     width: 50%;
     height: 500%
 }
