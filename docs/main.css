@@ -8,8 +8,8 @@ body {
     font-size: 100%;
     padding: 10px;
 }
-nav {
-    float: left;
+li {
+    display: inline;
 }
 p .formText {
     font-size: 100%;
