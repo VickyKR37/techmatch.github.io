@@ -1,6 +1,6 @@
 body {
     background-color: antiquewhite;  
-    font-family: noto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .formInputErrorMessage {
