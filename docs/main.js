@@ -1,3 +1,3 @@
 function submit() {
-    document.getElementById("login").submit();
+    document.getElementById("login").submit
 }
