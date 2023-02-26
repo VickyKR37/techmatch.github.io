@@ -15,7 +15,7 @@ p .formText {
     font-size: 100%;
 }
 img {
-    align-content: flex-start;
+    align-content: center;
 }
 .formInputErrorMessage {
     color: red;
